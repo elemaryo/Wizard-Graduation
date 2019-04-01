@@ -89,6 +89,7 @@ public class BoardManager : MonoBehaviour
     
     public void SetUpScene(int level)
     {
+        Player sc = gameObject.AddComponent<Player>() as Player;
         BoardSetup();
         InitialiseList();
         RandomGenerate(enemyTiles, 1, 4);

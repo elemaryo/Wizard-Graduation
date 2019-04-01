@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: efa6fcd7e0035df4e84c5848be8d57f2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - wizIdle: {fileID: 21300000, guid: 70576b9b44cab1147b49a5e56a25d7d4, type: 3}
+  - wizAttack: {fileID: 21300000, guid: 84055f48c13d61746b177b76db4566f6, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
