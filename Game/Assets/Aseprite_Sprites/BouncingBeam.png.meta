@@ -11,6 +11,8 @@ TextureImporter:
     21300012: BouncingBeam 6
     21300014: BouncingBeam 7
     21300016: BouncingBeam 8
+    21300018: BouncingBeam 9
+    21300020: BouncingBeam 10
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -96,7 +98,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4da846e22ba573b46a6548fc59b6f009
+      spriteID: 3b8dcce8ece2fcf4a8f234e6e5fd2f37
       vertices: []
       indices: 
       edges: []
@@ -116,7 +118,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0844f7bf2b05d7446934cbf822e8f875
+      spriteID: 5e7de06627ddc5e4abe63fa89e350d42
       vertices: []
       indices: 
       edges: []
@@ -136,7 +138,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d4a61ada2e1efb74fbf08806181eb7bf
+      spriteID: a5ca8a70ef3c78f42a8bc9ca65855173
       vertices: []
       indices: 
       edges: []
@@ -156,7 +158,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f5fb2db27786dd4a8dbbeeff04b00b0
+      spriteID: 73f12280f9624ad4b854cb66d5e8a102
       vertices: []
       indices: 
       edges: []
@@ -176,7 +178,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9d3526fd6f69ff042878451d72e4bb6f
+      spriteID: d57438330d659e948b2d4733a2c5eab2
       vertices: []
       indices: 
       edges: []
@@ -196,7 +198,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b8ea091d1028dde44b757c6b6ff5cb6e
+      spriteID: 94881ed420cc6144984072ce29f885e1
       vertices: []
       indices: 
       edges: []
@@ -216,7 +218,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a86cc6bec4adfba4f86b81bb29554198
+      spriteID: 723c6084e7a41864b9e4ddc902f3d8bf
       vertices: []
       indices: 
       edges: []
@@ -236,7 +238,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 939ff332f3aacac458cdaf40874cabb5
+      spriteID: defbbfbeb99081a468d56f2d4f3b4fb3
       vertices: []
       indices: 
       edges: []
@@ -256,7 +258,47 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d03df4ff2cb0bf74192e6c837745506f
+      spriteID: 396c024ba41e5b34a86083dd9e54fe92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BouncingBeam 9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244605768d454044880fc56c572dade1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BouncingBeam 10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34a611722b4f3f4581af4cb67226bf9
       vertices: []
       indices: 
       edges: []
