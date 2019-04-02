@@ -5,6 +5,7 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     public float speed;
+
     private Transform player;
     private Vector3 target;
     private Vector3 pos;

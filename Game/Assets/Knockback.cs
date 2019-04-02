@@ -14,7 +14,7 @@ public class Knockback : MonoBehaviour
             //if (player != null)
             //{
                 player.isKinematic = false;
-                Vector2 difference = (player.transform.position*2) - transform.position;
+                Vector2 difference = player.transform.position - transform.position;
                 difference = difference.normalized*thrust;
                 player.AddForce(difference, ForceMode2D.Impulse);
                 player.isKinematic = true;
