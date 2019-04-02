@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class DialogueUI : MonoBehaviour
 {
-    public float delay = 0.1f;
+    public float delay = 0.001f;
     public string fullText;
     public string currentText = "";
     public int count = 0;
@@ -24,8 +24,8 @@ public class DialogueUI : MonoBehaviour
             this.GetComponent<Text>().text = currentText;
             if (i == fullText.Length)
             {
-                Thread.Sleep(3000);
-                SceneManager.LoadScene(2);
+                Thread.Sleep(2000);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
             yield return new WaitForSeconds(delay);
         }
