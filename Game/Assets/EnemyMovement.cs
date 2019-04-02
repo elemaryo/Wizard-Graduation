@@ -14,6 +14,7 @@ public class EnemyMovement : MonoBehaviour
     void Start()
     {
             target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+            timer = startTimer;
     }
 
     // Update is called once per frame
@@ -28,7 +29,7 @@ public class EnemyMovement : MonoBehaviour
             timer = startTimer;
         }
         else{
-            timer = Time.deltaTime;
+            timer -= Time.deltaTime;
         }
     }
 }
