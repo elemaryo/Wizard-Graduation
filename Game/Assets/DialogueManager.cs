@@ -54,7 +54,6 @@ public class DialogueManager : MonoBehaviour
     public void EndDialogue ()
     {
         anim.SetBool("isOpen", false);
-        Thread.Sleep(2000);
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
