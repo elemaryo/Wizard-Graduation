@@ -7,6 +7,7 @@ public class Projectile : MonoBehaviour
     public float speed;
 
     private Transform player;
+    private Transform collision;
     private Vector3 target;
     private Vector3 pos;
     // Start is called before the first frame update
@@ -24,9 +25,14 @@ public class Projectile : MonoBehaviour
         if((pos.x == target.x) && (pos.y == target.y)){
             DestroyProjectile();
         }
+        collision = GameObject.FindGameObjectWithTag("Player").transform;
+        if (Vector3.Distance(transform.position, collision.position) < 1.5)
+        {
+            DestroyProjectile();
+        }
     }
     void OnTriggerEnter2D(Collider2D hit){
-        if(hit.CompareTag("Player")){
+        if(hit.GetComponent<Collider2D>().tag == "Player"){
             DestroyProjectile();
         }
     }

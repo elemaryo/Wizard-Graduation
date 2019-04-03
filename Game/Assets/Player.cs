@@ -5,24 +5,14 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     float speed = 3.0f;
-    public Sprite wizIdle;
-    public Sprite wizAttack;
     private bool attack;
-    private Transform chest;
 
     public GameObject projectile;
     private Animator anim;
-    private SpriteRenderer spriteRenderer;
 
     void Start()
     {
-        chest = GameObject.FindGameObjectWithTag("Chest").transform;
-        spriteRenderer = GetComponent<SpriteRenderer>(); // we are accessing the SpriteRenderer that is attached to the Gameobject
-        wizIdle = Resources.Load<Sprite>("Sprites/WizA");
-        wizAttack = Resources.Load<Sprite>("Sprites/WizAtt2");
         anim = GetComponent<Animator>();
-        if (spriteRenderer.sprite == null) // if the sprite on spriteRenderer is null then
-            spriteRenderer.sprite = wizIdle; // set the sprite to sprite1
     }
 
     void Update()
@@ -56,14 +46,6 @@ public class Player : MonoBehaviour
             DoIdle();
             //spriteRenderer.sprite = wizIdle;
         }
-        if (Input.GetKeyUp(KeyCode.E))
-        {
-            if (Vector3.Distance(transform.position, chest.position) < 1.5)
-            {
-                Instantiate(projectile, transform.position, Quaternion.identity);
-            }
-        }
-
     }
 
     private void DoAttack(){
