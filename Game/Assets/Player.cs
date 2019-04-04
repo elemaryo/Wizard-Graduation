@@ -26,10 +26,10 @@ public class Player : MonoBehaviour
         mousePos.z = 0;
 
         Vector3 objectPos = Camera.main.WorldToScreenPoint(transform.position);
-        float newX = mousePos.x - objectPos.x;
-        float newY = mousePos.y - objectPos.y;
+        mousePos.x = mousePos.x - objectPos.x;
+        mousePos.y = mousePos.y - objectPos.y;
 
-        float angle = Mathf.Atan2(newX, newY) * Mathf.Rad2Deg;
+        float angle = Mathf.Atan2(mousePos.y, mousePos.x) * Mathf.Rad2Deg;
         angle -= 90; //correction for angle, sprite was sideways
         transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
 
