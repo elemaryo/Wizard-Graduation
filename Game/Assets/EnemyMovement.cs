@@ -14,12 +14,13 @@ public class EnemyMovement : MonoBehaviour
     void Start()
     {
             target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+            timer = startTimer;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Vector3.Distance(transform.position, target.position) > 1){
+        if (Vector3.Distance(transform.position, target.position) > 1.5){
             transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
         }
 
@@ -28,7 +29,7 @@ public class EnemyMovement : MonoBehaviour
             timer = startTimer;
         }
         else{
-            timer = Time.deltaTime;
+            timer -= Time.deltaTime;
         }
     }
 }
