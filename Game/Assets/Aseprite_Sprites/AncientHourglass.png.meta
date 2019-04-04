@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: 6c65ad020d0d94948aee7cbed8f651af
+guid: 22b4738f31467ad4888499f3c156d7b0
 TextureImporter:
   fileIDToRecycleName:
-    21300000: BoostHealthBig 0
+    21300000: AncientHourglass 0
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -74,7 +74,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BoostHealthBig 0
+      name: AncientHourglass 0
       rect:
         serializedVersion: 2
         x: 0
@@ -88,7 +88,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ff7b0430c3c602342992cdfaa6e4c440
+      spriteID: 32deffcd68fac3e4da05fe54e99f479c
       vertices: []
       indices: 
       edges: []
@@ -96,7 +96,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 806aa52fbdb72e54eaffb50caa20b286
+    spriteID: 3d59a598448cc764295ec66bf87e6af7
     vertices: []
     indices: 
     edges: []

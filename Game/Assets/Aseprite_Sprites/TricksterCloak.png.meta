@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: 6c65ad020d0d94948aee7cbed8f651af
+guid: e8027a323c6c80745b343866529ae626
 TextureImporter:
   fileIDToRecycleName:
-    21300000: BoostHealthBig 0
+    21300000: TricksterCloak 0
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -74,7 +74,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BoostHealthBig 0
+      name: TricksterCloak 0
       rect:
         serializedVersion: 2
         x: 0
@@ -88,7 +88,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ff7b0430c3c602342992cdfaa6e4c440
+      spriteID: 59c5469358f4edf4990c6db10a9f12fb
       vertices: []
       indices: 
       edges: []
@@ -96,7 +96,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 806aa52fbdb72e54eaffb50caa20b286
+    spriteID: 603a1e1970396094aba977e13d617aca
     vertices: []
     indices: 
     edges: []

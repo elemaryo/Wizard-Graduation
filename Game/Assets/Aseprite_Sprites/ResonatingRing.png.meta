@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: 6c65ad020d0d94948aee7cbed8f651af
+guid: 6f17132f21dcf2642b67495d98262b87
 TextureImporter:
   fileIDToRecycleName:
-    21300000: BoostHealthBig 0
+    21300000: ResonatingRing 0
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -74,7 +74,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BoostHealthBig 0
+      name: ResonatingRing 0
       rect:
         serializedVersion: 2
         x: 0
@@ -88,7 +88,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ff7b0430c3c602342992cdfaa6e4c440
+      spriteID: 9d85d07f1afcf2a45b043bbb84dc3a22
       vertices: []
       indices: 
       edges: []
@@ -96,7 +96,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 806aa52fbdb72e54eaffb50caa20b286
+    spriteID: 3f109497e00084148a6d717b64e314c4
     vertices: []
     indices: 
     edges: []

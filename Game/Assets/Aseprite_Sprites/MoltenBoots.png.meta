@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: 6c65ad020d0d94948aee7cbed8f651af
+guid: bbb79aafbce202e4997b87cd65c0f640
 TextureImporter:
   fileIDToRecycleName:
-    21300000: BoostHealthBig 0
+    21300000: MoltenBoots 0
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -74,7 +74,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BoostHealthBig 0
+      name: MoltenBoots 0
       rect:
         serializedVersion: 2
         x: 0
@@ -88,7 +88,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ff7b0430c3c602342992cdfaa6e4c440
+      spriteID: 0cd03b44414bf1a42aa94595cf8f3308
       vertices: []
       indices: 
       edges: []
@@ -96,7 +96,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 806aa52fbdb72e54eaffb50caa20b286
+    spriteID: 68099294ef0b0b24188b421c9ca7e24b
     vertices: []
     indices: 
     edges: []

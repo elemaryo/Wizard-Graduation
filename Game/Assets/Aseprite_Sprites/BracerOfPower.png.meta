@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: 6c65ad020d0d94948aee7cbed8f651af
+guid: 0f6b1ed5516220449926617215c61964
 TextureImporter:
   fileIDToRecycleName:
-    21300000: BoostHealthBig 0
+    21300000: BracerOfPower 0
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -74,7 +74,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BoostHealthBig 0
+      name: BracerOfPower 0
       rect:
         serializedVersion: 2
         x: 0
@@ -88,7 +88,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ff7b0430c3c602342992cdfaa6e4c440
+      spriteID: 55d821c2965845442aa8ee3cd67079bc
       vertices: []
       indices: 
       edges: []
@@ -96,7 +96,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 806aa52fbdb72e54eaffb50caa20b286
+    spriteID: b8e557b8a8499cf4bb4210e113ece41c
     vertices: []
     indices: 
     edges: []
