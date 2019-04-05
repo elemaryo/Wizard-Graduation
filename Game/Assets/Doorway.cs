@@ -21,7 +21,7 @@ public class Doorway : MonoBehaviour
         enemies = GameObject.FindGameObjectsWithTag("Enemy");
         if (enemies.Length == 0)
         {
-            if (Vector3.Distance(transform.position, player.position) < 1.5)
+            if (Vector3.Distance(transform.position, player.position) < 1.1)
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
