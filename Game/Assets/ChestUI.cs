@@ -2,19 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Chest : MonoBehaviour
+public class ChestUI : MonoBehaviour
 {
     private Animator anim;
     private int open = -1;
     private Transform player;
+    private Transform chest;
     private GameObject[] enemies;
     // Start is called before the first frame update
     void Start()
     {
-        enemies = GameObject.FindGameObjectsWithTag("Enemy");
         anim = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        gameObject.GetComponent<Renderer>().enabled = false;
+        chest = GameObject.FindGameObjectWithTag("Chest").transform;
+        enemies = GameObject.FindGameObjectsWithTag("Enemy");
     }
 
     // Update is called once per frame
@@ -23,38 +24,37 @@ public class Chest : MonoBehaviour
         enemies = GameObject.FindGameObjectsWithTag("Enemy");
         if (enemies.Length == 0)
         {
-            gameObject.GetComponent<Renderer>().enabled = true;
             if (Input.GetKeyDown(KeyCode.E))
             {
-                if (Vector3.Distance(transform.position, player.position) < 1.5)
+                if (Vector3.Distance(chest.position, player.position) < 1.5)
                 {
                     open = open*-1;
                     if (open > 0){
-                        OpenChest();
+                        OpenChestUI();
                     }
                     else if (open < 0){
-                        CloseChest();
+                        CloseChestUI();
                     }
                 }
                 else
                 {
                     open = -1;
-                    CloseChest();
+                    CloseChestUI();
                 }
             }
-            else if (Vector3.Distance(transform.position, player.position) > 1.5)
+            else if (Vector3.Distance(chest.position, player.position) > 1.5)
             {
                 open = -1;
-                CloseChest();
-            }
-        }
+                CloseChestUI();
+            } 
+        } 
     }
 
-    private void OpenChest(){
-        anim.SetTrigger("open");
+    private void OpenChestUI(){
+        anim.SetBool("chest", true);
     }
 
-    private void CloseChest(){
-        anim.ResetTrigger("open");
+    private void CloseChestUI(){
+        anim.SetBool("chest", false);
     }
 }
