@@ -11,6 +11,8 @@ TextureImporter:
     21300012: Firebolt 6
     21300014: Firebolt 7
     21300016: Firebolt 8
+    21300018: Firebolt 9
+    21300020: Firebolt 10
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -96,7 +98,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 013141ec7f2866749a3149f2af02916c
+      spriteID: 184943c6c552f064bbac5205d369bc66
       vertices: []
       indices: 
       edges: []
@@ -116,7 +118,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bc98cd087f1888f4ba1766723b4bd968
+      spriteID: a0cb9f768d64fec45b3029d755335782
       vertices: []
       indices: 
       edges: []
@@ -136,7 +138,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b30b47f8d1ad4e44a9ba29231bff09f8
+      spriteID: 045b5d0617d9ce144a1a4829d292e7a5
       vertices: []
       indices: 
       edges: []
@@ -156,7 +158,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c64a8738ff7092d458aa39376a7b1a29
+      spriteID: f7dbc4e10ac69e74abfea1d0e5594703
       vertices: []
       indices: 
       edges: []
@@ -176,7 +178,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dcf84d8bdbb872f4a808e56ff7399865
+      spriteID: 1ecbccfeb2a14994ebee8a79b8d492b1
       vertices: []
       indices: 
       edges: []
@@ -196,7 +198,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe7d184d32fd897488965ba18bbc495e
+      spriteID: 7256d2e1afb55d84e89de675d0784043
       vertices: []
       indices: 
       edges: []
@@ -216,7 +218,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c57bc7ff211550c4691c48c51b8e4282
+      spriteID: adebd68d6a378114191d152466b26e62
       vertices: []
       indices: 
       edges: []
@@ -236,7 +238,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7b3a36947f86044f9888eb657c2f665
+      spriteID: 361ecfcf70109504eac49cfa687904b2
       vertices: []
       indices: 
       edges: []
@@ -256,7 +258,47 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b4df2e64d79c48445a7dcc07434d946b
+      spriteID: 04f9d474d6ff3ac4fa0744180bb37bec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebolt 9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6ffe3393664934fa7b4d6b36bee655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebolt 10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ecf306a37e5d74ba524c1e2352943d
       vertices: []
       indices: 
       edges: []

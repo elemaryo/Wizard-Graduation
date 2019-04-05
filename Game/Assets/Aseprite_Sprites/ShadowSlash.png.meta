@@ -7,6 +7,8 @@ TextureImporter:
     21300004: ShadowSlash 2
     21300006: ShadowSlash 3
     21300008: ShadowSlash 4
+    21300010: ShadowSlash 5
+    21300012: ShadowSlash 6
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -92,7 +94,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6d41d370cdb1a3a4ab13d39b3e4bd5e0
+      spriteID: 78d017883d472a34abcd961a736e4a83
       vertices: []
       indices: 
       edges: []
@@ -112,7 +114,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a820a669810b87b46b382c6eba743286
+      spriteID: 82e5ae9a23f2a5148801a9d13c3e7d53
       vertices: []
       indices: 
       edges: []
@@ -132,7 +134,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 474e7e3f047324e45884044c844e5a03
+      spriteID: c30183dad0b22ab4cbcda98887beaa91
       vertices: []
       indices: 
       edges: []
@@ -152,7 +154,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17a7b5a56f176b648819ba6e8aaa0d00
+      spriteID: 604b0832b27c5fd44bb9f8202892c07d
       vertices: []
       indices: 
       edges: []
@@ -172,7 +174,47 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ff6949d796864164c8dab5d13debd96f
+      spriteID: 2f46f32a18eb1da4794b3b1216f5563b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShadowSlash 5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb689a5c292b3e4485fc4b9f09da2a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShadowSlash 6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbb73ed4361a084eb9ebe2613496479
       vertices: []
       indices: 
       edges: []

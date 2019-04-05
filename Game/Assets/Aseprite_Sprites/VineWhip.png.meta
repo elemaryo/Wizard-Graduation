@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: 5e4652c13eb4c6148a11b52df7dfcf19
+guid: e09495eb8dcb5764da18ff37ff5ae331
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Tornado 0
-    21300002: Tornado 1
-    21300004: Tornado 2
-    21300006: Tornado 3
-    21300008: Tornado 4
-    21300010: Tornado 5
+    21300000: VineWhip 0
+    21300002: VineWhip 1
+    21300004: VineWhip 2
+    21300006: VineWhip 3
+    21300008: VineWhip 4
+    21300010: VineWhip 5
+    21300012: VineWhip 6
+    21300014: VineWhip 7
+    21300016: VineWhip 8
+    21300018: VineWhip 9
+    21300020: VineWhip 10
+    21300022: VineWhip 11
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -79,7 +85,167 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tornado 0
+      name: VineWhip 0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57098c82aeec2634fa8c0076e58938a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VineWhip 1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c060e433ed9df934090ea1146d5690ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VineWhip 2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d1a16d67e461548b5bd044c2aa4bec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VineWhip 3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8324ede1f35027841a420128d9b8be1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VineWhip 4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92a7a19ea056be47864af360695ea63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VineWhip 5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f72fc7e13234240bc3bd82c0df2b5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VineWhip 6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77f44ef4e71c274f8a8aaa6744ab148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VineWhip 7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc435461ddbe3f4685ea8df2fa81589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VineWhip 8
       rect:
         serializedVersion: 2
         x: 0
@@ -93,13 +259,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 59c338bd9cd95a14ca6669571a04304f
+      spriteID: 3f3186a289ea4154ab2a2647f951a118
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tornado 1
+      name: VineWhip 9
       rect:
         serializedVersion: 2
         x: 16
@@ -113,13 +279,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c26b97f32b63a8f42be234c7a5b71f6c
+      spriteID: cd8d5aa6076e8d344b1364d6a1930ae0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tornado 2
+      name: VineWhip 10
       rect:
         serializedVersion: 2
         x: 32
@@ -133,13 +299,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b2a1566c39573c641a7234ab22cd5641
+      spriteID: b4978dd89d3f9d94687554a387a03bde
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tornado 3
+      name: VineWhip 11
       rect:
         serializedVersion: 2
         x: 48
@@ -153,47 +319,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e9763cdcea38af4baa84ee11c30876c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tornado 4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4aa9773885d9d2f4b820c4e0b744214d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tornado 5
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f9225c42fb1ec2b4dadfbffeadaddec1
+      spriteID: c5cc238bc6a7a2142951113612ba52cb
       vertices: []
       indices: 
       edges: []
@@ -201,7 +327,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 28c01ac66064d8c4d8941137e594caa3
+    spriteID: ac075253ad5df404ba0718a2fa6b0bfc
     vertices: []
     indices: 
     edges: []

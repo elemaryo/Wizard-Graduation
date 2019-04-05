@@ -14,6 +14,8 @@ TextureImporter:
     21300018: Smite 9
     21300020: Smite 10
     21300022: Smite 11
+    21300024: Smite 12
+    21300026: Smite 13
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -99,7 +101,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7ae7d4f88c7e2d24baaeb1050d51cf13
+      spriteID: 3dd20c174a1646948ba49ece0a8e692b
       vertices: []
       indices: 
       edges: []
@@ -119,7 +121,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9457ef26baf79c649a67ed41ff11d2e2
+      spriteID: d8e01357fd6b031418362893b73c7563
       vertices: []
       indices: 
       edges: []
@@ -139,7 +141,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b4e7efaaabc72db4ebcee3e125672de2
+      spriteID: 23a4e43630a04c14ca13ee25b3f3c915
       vertices: []
       indices: 
       edges: []
@@ -159,7 +161,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6bc5e4c40f9a97f45bff1d42796bf95e
+      spriteID: 4feecdd0661f1134e84b348a35946611
       vertices: []
       indices: 
       edges: []
@@ -179,7 +181,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c66ff875ed7ecae4fb2084d2aedee72a
+      spriteID: a80b2cb91da2de84fbc32353add774d4
       vertices: []
       indices: 
       edges: []
@@ -199,7 +201,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0453d37590c22c245905e85edb59a05a
+      spriteID: a94539a508e27074d96bedb0c894371b
       vertices: []
       indices: 
       edges: []
@@ -219,7 +221,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 943b6b69d6f8c9f4b9fdb995bd2b7c36
+      spriteID: 2497d913c2161c147b1247b3cc97407a
       vertices: []
       indices: 
       edges: []
@@ -239,7 +241,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1dfdbf1a7bd8e284489133a1cd8dfdc5
+      spriteID: 383e6951cd28d2f439489f20b7ba9ec2
       vertices: []
       indices: 
       edges: []
@@ -259,7 +261,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ed08974af227a044a9640258090bce0e
+      spriteID: 04ed5c3cbb3ce0c498eb550ebfe573f1
       vertices: []
       indices: 
       edges: []
@@ -279,7 +281,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 27111df2b5a4c1444935a53bc749a9bd
+      spriteID: 8ed4d0c385c175047af9d3286089891b
       vertices: []
       indices: 
       edges: []
@@ -299,7 +301,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 311aef5d7700beb4fad24bc22db9d2f4
+      spriteID: dbc56426a74e71f4c80e20dc2753a495
       vertices: []
       indices: 
       edges: []
@@ -319,7 +321,47 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52a50f97866519443a5e9fac10998f17
+      spriteID: 4b94674ab55ac7840ab7975835e36ee9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smite 12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be34ed2a90d96145ba9a21c2e50c94c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smite 13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a085c9b3421d1864bb438348c523aedb
       vertices: []
       indices: 
       edges: []

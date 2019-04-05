@@ -1,23 +1,22 @@
 fileFormatVersion: 2
-guid: 2a8f8597fa94ccb4dae2fa4038ff910c
+guid: d83f60275179b3d438ac839e73f795b2
 TextureImporter:
   fileIDToRecycleName:
-    21300000: IceShard 0
-    21300002: IceShard 1
-    21300004: IceShard 2
-    21300006: IceShard 3
-    21300008: IceShard 4
-    21300010: IceShard 5
-    21300012: IceShard 6
-    21300014: IceShard 7
-    21300016: IceShard 8
-    21300018: IceShard 9
-    21300020: IceShard 10
-    21300022: IceShard 11
-    21300024: IceShard 12
-    21300026: IceShard 13
-    21300028: IceShard 14
-    21300030: IceShard 15
+    21300000: Firebreath 0
+    21300002: Firebreath 1
+    21300004: Firebreath 2
+    21300006: Firebreath 3
+    21300008: Firebreath 4
+    21300010: Firebreath 5
+    21300012: Firebreath 6
+    21300014: Firebreath 7
+    21300016: Firebreath 8
+    21300018: Firebreath 9
+    21300020: Firebreath 10
+    21300022: Firebreath 11
+    21300024: Firebreath 12
+    21300026: Firebreath 13
+    21300028: Firebreath 14
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -76,7 +75,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 64
+    maxTextureSize: 128
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -89,13 +88,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IceShard 0
+      name: Firebreath 0
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
-        width: 16
-        height: 16
+        y: 104
+        width: 24
+        height: 24
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -103,19 +102,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1859573baf626f24b886450d3b2120e8
+      spriteID: 5a4a4415e71f9bb4d94f2d815e6861b8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IceShard 1
+      name: Firebreath 1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 48
-        width: 16
-        height: 16
+        x: 24
+        y: 104
+        width: 24
+        height: 24
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,39 +122,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23a1811e4c25f034585050101fccb8ec
+      spriteID: 4f4620fc390379c42872f3157794f47c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IceShard 2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 48
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dc8bb69c38b2879499836aff537584f8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IceShard 3
+      name: Firebreath 2
       rect:
         serializedVersion: 2
         x: 48
-        y: 48
-        width: 16
-        height: 16
+        y: 104
+        width: 24
+        height: 24
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,19 +142,59 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 91cb20e352ffd844999ad1bc26f4a41c
+      spriteID: e4cca20f79243384b8626e0b5730752d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IceShard 4
+      name: Firebreath 3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 104
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd72983f71dab946af6e1cb9b7375d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebreath 4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 104
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e3ff5601a8fa34f9d03ee9419cfdbb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebreath 5
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
-        width: 16
-        height: 16
+        y: 80
+        width: 24
+        height: 24
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,19 +202,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 393dcd725f79fd54ca998b31bc142d72
+      spriteID: 6916c90b7f5a7534a8704c879d6e6445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IceShard 5
+      name: Firebreath 6
       rect:
         serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
+        x: 24
+        y: 80
+        width: 24
+        height: 24
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,39 +222,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 80ef3d80c72db1b48a1efd7990882545
+      spriteID: 59acf3cfe7e400543a03a31fdfc99d73
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IceShard 6
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 92319565765d22e4193579448fc2b428
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IceShard 7
+      name: Firebreath 7
       rect:
         serializedVersion: 2
         x: 48
-        y: 32
-        width: 16
-        height: 16
+        y: 80
+        width: 24
+        height: 24
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,19 +242,59 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8bbf35127b31ad5458744ebb8cd9454a
+      spriteID: b01769ac9442dd34a976665b1fb214af
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IceShard 8
+      name: Firebreath 8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 80
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eadb70de5e28f046b2be9892f234ed6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebreath 9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ace4c8ad9f2d1f4ca990caa29343b83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Firebreath 10
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
-        width: 16
-        height: 16
+        y: 56
+        width: 24
+        height: 24
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,19 +302,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ef93632960b0e04fb1cbbce6a08d635
+      spriteID: 7871e691b37f6cd4e821c939f96c5caf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IceShard 9
+      name: Firebreath 11
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
+        x: 24
+        y: 56
+        width: 24
+        height: 24
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,39 +322,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d46b3021c8e1064c97dde8c7976ccfd
+      spriteID: 81ba4010f1c686f48a00a01d082b7cc4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IceShard 10
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cda2b87dd281da246ac7665aa1e1fefc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IceShard 11
+      name: Firebreath 12
       rect:
         serializedVersion: 2
         x: 48
-        y: 16
-        width: 16
-        height: 16
+        y: 56
+        width: 24
+        height: 24
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,19 +342,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3c0f6cde0b1970349bcd1d63977625a3
+      spriteID: 7ca14ae72f1d1aa4d95f8667afcda02e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IceShard 12
+      name: Firebreath 13
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 16
+        x: 72
+        y: 56
+        width: 24
+        height: 24
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,19 +362,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 54fff32c77495934bbe23863269311a3
+      spriteID: 847976950da647e4aabf01633c37166b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IceShard 13
+      name: Firebreath 14
       rect:
         serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
+        x: 96
+        y: 56
+        width: 24
+        height: 24
       alignment: 7
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,47 +382,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 36c0ca8860c81714eae2bc81fbb4f0e9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IceShard 14
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b6fd3dc8c6200984b9ae70430fd76d04
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IceShard 15
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c41551989d05d9843b23355ea45dc8a2
+      spriteID: 9c7fa8d3afd206a49bfa4bc51c213cdc
       vertices: []
       indices: 
       edges: []
@@ -411,7 +390,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a1261418d7c13ad45a367d1376bb92d2
+    spriteID: 67d64a3cee159964cb8fa137d05118d4
     vertices: []
     indices: 
     edges: []
