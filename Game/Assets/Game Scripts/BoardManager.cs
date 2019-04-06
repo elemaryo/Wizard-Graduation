@@ -45,7 +45,7 @@ public class BoardManager : MonoBehaviour
         }
     }
 
-    void BoardSetup()
+    void BoardSetup(int level)
     {
         boardHolder = new GameObject ("Board").transform;
 
@@ -59,9 +59,11 @@ public class BoardManager : MonoBehaviour
                {
                     tile = wallTiles[Random.Range (0, wallTiles.Length)];
                }
-               if (((i == 4) && (j == rows)) || ((i == 3) && (j == rows)))
-               {
-                   tile = doorway;
+               if (level <= 6){
+                    if (((i == 4) && (j == rows)) || ((i == 3) && (j == rows)))
+                    {
+                        tile = doorway;
+                    }
                }
                GameObject instance = Instantiate(tile, new Vector3 (i,j,0f), Quaternion.identity) as GameObject;
                instance.transform.SetParent(boardHolder);
@@ -92,9 +94,9 @@ public class BoardManager : MonoBehaviour
     
     public void SetUpScene(int level)
     {
-        BoardSetup();
+        BoardSetup(level);
         InitialiseList();
-        if (level > 2){
+        if ((level > 2) && (level <= 6)){
             RandomGenerate(enemyTiles, 1, 4);
             //Scale number of enemies based on level
             //int enemyCount = (int)Mathf.Log(level, 2f);

@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
 {
     public BoardManager boardScript;
 
-    private int level = 0;
+    //private int level = 0;
     
     void Awake()
     {
