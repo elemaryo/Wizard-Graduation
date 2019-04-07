@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
 
     public GameObject projectile;
 
-    [SerializeField]
+    //[SerializeField]
     public GameObject[] spellPrefab;
 
     private Animator anim;
@@ -122,7 +122,6 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             Instantiate(spellPrefab[0], transform.position, Quaternion.identity);
-            Instantiate(projectile, transform.position, Quaternion.identity);
             attack = true;
             DoAttack();
         }
@@ -130,7 +129,6 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse1))
         {
             Instantiate(spellPrefab[1], transform.position, Quaternion.identity);
-            Instantiate(projectile, transform.position, Quaternion.identity);
             attack = true;
             DoAttack();
         }
@@ -138,7 +136,6 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Instantiate(spellPrefab[2], transform.position, Quaternion.identity);
-            Instantiate(projectile, transform.position, Quaternion.identity);
             attack = true;
             DoAttack();
         }
@@ -146,7 +143,6 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             Instantiate(spellPrefab[3], transform.position, Quaternion.identity);
-            Instantiate(projectile, transform.position, Quaternion.identity);
             attack = true;
             DoAttack();
         }
@@ -154,7 +150,6 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             Instantiate(spellPrefab[4], transform.position, Quaternion.identity);
-            Instantiate(projectile, transform.position, Quaternion.identity);
             attack = true;
             DoAttack();
         }
@@ -162,7 +157,6 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             Instantiate(spellPrefab[5], transform.position, Quaternion.identity);
-            Instantiate(projectile, transform.position, Quaternion.identity);
             attack = true;
             DoAttack();
         }
