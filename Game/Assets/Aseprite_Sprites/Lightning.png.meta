@@ -7,6 +7,8 @@ TextureImporter:
     21300004: Lightning 2
     21300006: Lightning 3
     21300008: Lightning 4
+    21300010: Lightning 5
+    21300012: Lightning 6
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -92,7 +94,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2cf789c7ee4284447a3b6d2a2e5db564
+      spriteID: 56ddd883e8a930f4b98276814465da59
       vertices: []
       indices: 
       edges: []
@@ -112,7 +114,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97ac6e459f1073947b6d43457b09ac42
+      spriteID: d20b890f612cc9049b8de3a1146e679b
       vertices: []
       indices: 
       edges: []
@@ -132,7 +134,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 623f2604fe7ae394aadf09329871fc9c
+      spriteID: cd2b7db38766fb244afc1903edc223e0
       vertices: []
       indices: 
       edges: []
@@ -152,7 +154,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 55b5b9d6c540e4145a980d97c731fdbb
+      spriteID: 31d6deb7050be8143971d9f47630a39c
       vertices: []
       indices: 
       edges: []
@@ -172,7 +174,47 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 87a8e5a24fd7ef7438bc8dc7a0a2e909
+      spriteID: 1fd373ed5ce30f24681e4d99eeca7ff8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning 5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64d938663dca8444896ce36384b4992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning 6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 501e5a5fec92e0045b222ff02ea8af12
       vertices: []
       indices: 
       edges: []

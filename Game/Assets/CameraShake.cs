@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyInfo : MonoBehaviour
+public class CameraShake : MonoBehaviour
 {
-    public int hp;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,13 +13,6 @@ public class EnemyInfo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        hp--;
-        if (hp == 0){
-            KillEnemy();
-        }   
-    }
-
-    void KillEnemy(){
-        Destroy(gameObject);
+        
     }
 }

@@ -10,6 +10,8 @@ TextureImporter:
     21300010: IcePulse 5
     21300012: IcePulse 6
     21300014: IcePulse 7
+    21300016: IcePulse 8
+    21300018: IcePulse 9
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -68,7 +70,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 128
+    maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -95,7 +97,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 472cd45f092a6a8469417a337a349c77
+      spriteID: 847663dc955c7774c886d77d5c719238
       vertices: []
       indices: 
       edges: []
@@ -115,7 +117,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e08a852f7c1fcef45921a3d4157264f0
+      spriteID: 157d3855e4eb7d642b5ae46af23615a6
       vertices: []
       indices: 
       edges: []
@@ -135,13 +137,93 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 753b956a1b2f52546bd69d611684d6f5
+      spriteID: 5a85a1a5dbdf1ba499272b48841d929c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
       name: IcePulse 3
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 92
+        width: 36
+        height: 36
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb40b24c2810ff74eb894419958f9f80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePulse 4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 92
+        width: 36
+        height: 36
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2283fde147d973b4582e255e932c4d72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePulse 5
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 92
+        width: 36
+        height: 36
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3acbe9c41cb1a642a8b7282a4a87f73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePulse 6
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 92
+        width: 36
+        height: 36
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286d32929b88360478462bdb33b9f18a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IcePulse 7
       rect:
         serializedVersion: 2
         x: 0
@@ -155,13 +237,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d9e08964ae0efba42bbd130886269935
+      spriteID: 0af34160284881647b34e311cb2b7437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IcePulse 4
+      name: IcePulse 8
       rect:
         serializedVersion: 2
         x: 36
@@ -175,13 +257,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f2f27269f3bd01645bd22c235f356027
+      spriteID: 7b612b0e65c178445b80382f8cdddd58
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IcePulse 5
+      name: IcePulse 9
       rect:
         serializedVersion: 2
         x: 72
@@ -195,47 +277,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b6f1825a49641a4abe3e31d82d2d7f7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IcePulse 6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 20
-        width: 36
-        height: 36
-      alignment: 7
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7670c822810bced4499ad06484b3ef02
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IcePulse 7
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 20
-        width: 36
-        height: 36
-      alignment: 7
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: de1430b15b070c24dbf5addeac4c3a41
+      spriteID: 91ab2c263be65084693b6aa0d52e1ba3
       vertices: []
       indices: 
       edges: []

@@ -54,6 +54,20 @@ public class DialogueManager : MonoBehaviour
     public void EndDialogue ()
     {
         anim.SetBool("isOpen", false);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if (SceneManager.GetActiveScene().buildIndex == 1)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        else if (SceneManager.GetActiveScene().buildIndex == 7)
+        {
+            if (FindObjectOfType<FinalBoss>().GetState())
+            {
+                FindObjectOfType<FinalBoss>().enter();
+            }
+            else
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
+        }
     }
 }

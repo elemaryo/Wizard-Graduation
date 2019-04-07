@@ -16,6 +16,8 @@ TextureImporter:
     21300022: IceShard 11
     21300024: IceShard 12
     21300026: IceShard 13
+    21300028: IceShard 14
+    21300030: IceShard 15
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -101,7 +103,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38fa5310efbf6e643854048652a23102
+      spriteID: 1859573baf626f24b886450d3b2120e8
       vertices: []
       indices: 
       edges: []
@@ -121,7 +123,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2e6174b5cf0f5fe498ef1f20313b56ae
+      spriteID: 23a1811e4c25f034585050101fccb8ec
       vertices: []
       indices: 
       edges: []
@@ -141,7 +143,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 385a969b3a6f3fe488d19ba865f0c742
+      spriteID: dc8bb69c38b2879499836aff537584f8
       vertices: []
       indices: 
       edges: []
@@ -161,7 +163,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0da61a7e354dee54286b8b1296b4f25f
+      spriteID: 91cb20e352ffd844999ad1bc26f4a41c
       vertices: []
       indices: 
       edges: []
@@ -181,7 +183,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ceb467dc1febb7a4a935352ec5607a0c
+      spriteID: 393dcd725f79fd54ca998b31bc142d72
       vertices: []
       indices: 
       edges: []
@@ -201,7 +203,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a2b47920a508e0747aa5969e895e5daa
+      spriteID: 80ef3d80c72db1b48a1efd7990882545
       vertices: []
       indices: 
       edges: []
@@ -221,7 +223,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3f7e63659785f1740a474fa2622fcd00
+      spriteID: 92319565765d22e4193579448fc2b428
       vertices: []
       indices: 
       edges: []
@@ -241,7 +243,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8db1655eca649be418e5d376e627480d
+      spriteID: 8bbf35127b31ad5458744ebb8cd9454a
       vertices: []
       indices: 
       edges: []
@@ -261,7 +263,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3baf54a575e81c3428c3a523e858ae0f
+      spriteID: 6ef93632960b0e04fb1cbbce6a08d635
       vertices: []
       indices: 
       edges: []
@@ -281,7 +283,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 18f3b055644aa9849b3f8e07b2ac3542
+      spriteID: 1d46b3021c8e1064c97dde8c7976ccfd
       vertices: []
       indices: 
       edges: []
@@ -301,7 +303,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2509dd771d87862478ca33f9431a8459
+      spriteID: cda2b87dd281da246ac7665aa1e1fefc
       vertices: []
       indices: 
       edges: []
@@ -321,7 +323,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 24b22b2b076603e47b9e43694997c23c
+      spriteID: 3c0f6cde0b1970349bcd1d63977625a3
       vertices: []
       indices: 
       edges: []
@@ -341,7 +343,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 66f277fd78c20d54cbb6164aa7d2b4ae
+      spriteID: 54fff32c77495934bbe23863269311a3
       vertices: []
       indices: 
       edges: []
@@ -361,7 +363,47 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: acff90483ae91344a8e3289ee9a87aec
+      spriteID: 36c0ca8860c81714eae2bc81fbb4f0e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceShard 14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6fd3dc8c6200984b9ae70430fd76d04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceShard 15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41551989d05d9843b23355ea45dc8a2
       vertices: []
       indices: 
       edges: []

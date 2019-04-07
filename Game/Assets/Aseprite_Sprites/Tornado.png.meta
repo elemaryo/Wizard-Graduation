@@ -6,6 +6,8 @@ TextureImporter:
     21300002: Tornado 1
     21300004: Tornado 2
     21300006: Tornado 3
+    21300008: Tornado 4
+    21300010: Tornado 5
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -64,7 +66,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 32
+    maxTextureSize: 64
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -91,7 +93,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 10f05b3d6de530946acb8980a5ecfda7
+      spriteID: 59c338bd9cd95a14ca6669571a04304f
       vertices: []
       indices: 
       edges: []
@@ -111,13 +113,53 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eb0a9e5fce8609248905db1dfbc98040
+      spriteID: c26b97f32b63a8f42be234c7a5b71f6c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
       name: Tornado 2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a1566c39573c641a7234ab22cd5641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tornado 3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9763cdcea38af4baa84ee11c30876c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tornado 4
       rect:
         serializedVersion: 2
         x: 0
@@ -131,13 +173,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 938b288c9bbbd4d459d2d1cc8701b3b7
+      spriteID: 4aa9773885d9d2f4b820c4e0b744214d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tornado 3
+      name: Tornado 5
       rect:
         serializedVersion: 2
         x: 16
@@ -151,7 +193,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 33f42f33c2679f74a91ce601dc3e9000
+      spriteID: f9225c42fb1ec2b4dadfbffeadaddec1
       vertices: []
       indices: 
       edges: []

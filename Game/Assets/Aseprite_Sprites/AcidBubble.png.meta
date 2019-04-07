@@ -11,6 +11,8 @@ TextureImporter:
     21300012: AcidBubble 6
     21300014: AcidBubble 7
     21300016: AcidBubble 8
+    21300018: AcidBubble 9
+    21300020: AcidBubble 10
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -96,7 +98,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b0324f7b3868b60458e786647205e8a6
+      spriteID: b0930106d92ba2049b78fa426bda4429
       vertices: []
       indices: 
       edges: []
@@ -116,7 +118,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 574eeef46d9fab842a827a60f8ac0d2c
+      spriteID: b38f053389436e342b9a2e138c092544
       vertices: []
       indices: 
       edges: []
@@ -136,7 +138,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5ae71aec68f63cf449323a3c3fc92746
+      spriteID: 7336c05396c9f7245bdb1565ec571131
       vertices: []
       indices: 
       edges: []
@@ -156,7 +158,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eed8e83652bd0804994d3e350c57f9dc
+      spriteID: 49f00fc557c00fe4cade1a104c2f3e93
       vertices: []
       indices: 
       edges: []
@@ -176,7 +178,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d67677a0fdefb24f8ebfbf17bddccf8
+      spriteID: 920ebdf1e3058ff48b912d3dfb225a45
       vertices: []
       indices: 
       edges: []
@@ -196,7 +198,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 24bf8857b6dd3434c840a99ef7433f97
+      spriteID: e253af558eb8b3245b2df3b4aa75f039
       vertices: []
       indices: 
       edges: []
@@ -216,7 +218,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce7a4e2bab96e0a4ea02da1bfb804362
+      spriteID: 1e3be5b1722ff0d448c7366b9610d5c9
       vertices: []
       indices: 
       edges: []
@@ -236,7 +238,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bf1b051e4c3b2b14d8289d46be020de2
+      spriteID: 9ddddeb7fa3cfdb4298ff74a5b9dfca2
       vertices: []
       indices: 
       edges: []
@@ -256,7 +258,47 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b95ea20cb46ccde4da2ff2b0b7050388
+      spriteID: 5e4326c960b9f7d44aed6327359e07ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubble 9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76262a5bcae959b4698a27514ea6de15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AcidBubble 10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204b7e398a6fb5f4a99759bc8d9eeda0
       vertices: []
       indices: 
       edges: []
