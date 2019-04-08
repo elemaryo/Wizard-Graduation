@@ -10,6 +10,7 @@ public class ChestSlot : MonoBehaviour
 
     void Start()
     {
+        item = null;
     }
 
     // Update is called once per frame
