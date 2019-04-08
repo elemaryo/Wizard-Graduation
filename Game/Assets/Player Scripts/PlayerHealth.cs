@@ -11,6 +11,7 @@ public class PlayerHealth : MonoBehaviour
     public int startingHealth = 100;
     public int currentHealth;
     public Slider healthSlider;
+    private GameObject health;
 
     Player player;
     //bool isDead;
@@ -20,6 +21,7 @@ public class PlayerHealth : MonoBehaviour
     {
         player = GetComponent<Player>();
         currentHealth = startingHealth;
+        health = GameObject.FindGameObjectWithTag("Healthslider");
     }
 
     // Update is called once per frame
@@ -45,6 +47,7 @@ public class PlayerHealth : MonoBehaviour
         //Add death cutscene here
         SceneManager.LoadScene("Home");
         Destroy(gameObject);
+        Destroy(health);
 
         //playerMovement.enabled = false;
 

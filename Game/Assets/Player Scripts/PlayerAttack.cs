@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    public float speed=6.0f;
+    public float speed = 6.0f;
     private Transform enemy;
     private Transform collision;
     private Vector2 target;
@@ -24,8 +24,9 @@ public class PlayerAttack : MonoBehaviour
     {
         transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
         pos = transform.position;
-        
-        if((pos.x == enPos.x) && (pos.y == enPos.y)){
+
+        if ((pos.x == enPos.x) && (pos.y == enPos.y))
+        {
             DestroyProjectile();
         }
         collision = GameObject.FindGameObjectWithTag("Enemy").transform;
@@ -34,12 +35,15 @@ public class PlayerAttack : MonoBehaviour
             DestroyProjectile();
         }
     }
-    void OnTriggerEnter2D(Collider2D hit){
-        if(hit.CompareTag("Enemy")){
+    void OnTriggerEnter2D(Collider2D hit)
+    {
+        if (hit.CompareTag("Enemy"))
+        {
             DestroyProjectile();
         }
     }
-    void DestroyProjectile(){
+    void DestroyProjectile()
+    {
         Destroy(gameObject);
     }
 }

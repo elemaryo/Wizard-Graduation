@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class ChestUI : MonoBehaviour
 {
@@ -9,13 +10,27 @@ public class ChestUI : MonoBehaviour
     private Transform player;
     private Transform chest;
     private GameObject[] enemies;
+    public Transform chestOverlay;
+    public GameObject[] item;
+    private int rand;
+    ChestSlot[] slots;
     // Start is called before the first frame update
     void Start()
     {
+
         anim = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
         chest = GameObject.FindGameObjectWithTag("Chest").transform;
         enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        slots = chestOverlay.GetComponentsInChildren<ChestSlot>();
+        for (int i = 0; i < slots.Length; i++)
+        {
+            rand = Random.Range (0, 10);
+            if (rand <= 5)
+            {
+                slots[i].AddItem(item[Random.Range (0, 9)]);
+            }
+        }
     }
 
     // Update is called once per frame
@@ -46,8 +61,8 @@ public class ChestUI : MonoBehaviour
             {
                 open = -1;
                 CloseChestUI();
-            } 
-        } 
+            }
+        }
     }
 
     private void OpenChestUI(){
