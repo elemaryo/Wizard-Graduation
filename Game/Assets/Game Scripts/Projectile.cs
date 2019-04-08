@@ -5,7 +5,7 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     public float speed;
-    public int attackDamage = 10;
+    public int attackDamage = 2;
 
     private Transform player;
     private Transform collision;
