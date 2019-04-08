@@ -4,16 +4,18 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    public float speed;
+    public float speed=6.0f;
     private Transform enemy;
     private Transform collision;
     private Vector2 target;
+    public Vector2 enPos;
     private Vector2 pos;
     // Start is called before the first frame update
     void Start()
     {
         enemy = GameObject.FindGameObjectWithTag("Enemy").transform;
-        target = new Vector2(enemy.position.x, enemy.position.y);
+        target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        enPos = new Vector2(enemy.position.x, enemy.position.y);
         //target = Input.mousePosition;
     }
 
@@ -22,7 +24,8 @@ public class PlayerAttack : MonoBehaviour
     {
         transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
         pos = transform.position;
-        if((pos.x == target.x) && (pos.y == target.y)){
+        
+        if((pos.x == enPos.x) && (pos.y == enPos.y)){
             DestroyProjectile();
         }
         collision = GameObject.FindGameObjectWithTag("Enemy").transform;
