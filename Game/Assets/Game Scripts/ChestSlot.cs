@@ -36,7 +36,7 @@ public class ChestSlot : MonoBehaviour
 
     public void chooseItem()
     {
-        for (int i = 0; i <= 6; i++)
+        for (int i = 0; i < 6; i++)
         {
             if (book.GetComponent<SpellBook>().GetSpell(i) == null)
             {

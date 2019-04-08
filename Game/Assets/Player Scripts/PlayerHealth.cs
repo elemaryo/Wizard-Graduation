@@ -12,6 +12,7 @@ public class PlayerHealth : MonoBehaviour
     public int currentHealth;
     public Slider healthSlider;
     private GameObject health;
+    private GameObject score;
 
     Player player;
     //bool isDead;
@@ -21,6 +22,7 @@ public class PlayerHealth : MonoBehaviour
     {
         player = GetComponent<Player>();
         currentHealth = startingHealth;
+        score = GameObject.FindGameObjectWithTag("Score");
         health = GameObject.FindGameObjectWithTag("Healthslider");
     }
 
@@ -48,6 +50,7 @@ public class PlayerHealth : MonoBehaviour
         SceneManager.LoadScene("Home");
         Destroy(gameObject);
         Destroy(health);
+        Destroy(score);
 
         //playerMovement.enabled = false;
 

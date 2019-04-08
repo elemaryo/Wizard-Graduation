@@ -32,4 +32,9 @@ public class EnemyInfo : MonoBehaviour
     void KillEnemy(){
         Destroy(gameObject);
     }
+
+    public int GetHealth()
+    {
+        return hp;
+    }
 }
