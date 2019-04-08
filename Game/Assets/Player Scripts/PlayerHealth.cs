@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -11,7 +13,7 @@ public class PlayerHealth : MonoBehaviour
     public Slider healthSlider;
 
     Player player;
-    bool isDead;
+    //bool isDead;
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +25,7 @@ public class PlayerHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        healthSlider.value = currentHealth;
     }
 
     public void takeDamage (int amount)
@@ -31,7 +33,7 @@ public class PlayerHealth : MonoBehaviour
         currentHealth -= amount;
         healthSlider.value = currentHealth;
 
-        if (currentHealth <= 0 && !isDead)
+        if (currentHealth <= 0)
         {
             Death();
         }
@@ -40,7 +42,9 @@ public class PlayerHealth : MonoBehaviour
     private void Death()
     {
         //restart game?
-        isDead = true;
+        //Add death cutscene here
+        SceneManager.LoadScene("Home");
+        Destroy(gameObject);
 
         //playerMovement.enabled = false;
 

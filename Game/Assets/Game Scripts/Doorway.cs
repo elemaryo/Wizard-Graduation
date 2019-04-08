@@ -10,6 +10,7 @@ public class Doorway : MonoBehaviour
     private GameObject[] enemies;
     private GameObject wizard;
     private GameObject book;
+    private GameObject healthSlider;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +18,7 @@ public class Doorway : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
         wizard = GameObject.FindGameObjectWithTag("Player");
         book = GameObject.FindGameObjectWithTag("Spellbook");
+        healthSlider = GameObject.FindGameObjectWithTag("HealthSlider");
     }
 
     // Update is called once per frame
@@ -29,6 +31,7 @@ public class Doorway : MonoBehaviour
             {
                 DontDestroyOnLoad(book);
                 DontDestroyOnLoad(wizard);
+                DontDestroyOnLoad(healthSlider);
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }
