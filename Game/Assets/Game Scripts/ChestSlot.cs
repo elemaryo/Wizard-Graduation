@@ -31,4 +31,9 @@ public class ChestSlot : MonoBehaviour
         icon.sprite = null;
         icon.enabled = false;
     }
+
+    public void chooseItem()
+    {
+        Debug.Log("Choosing Item");
+    }
 }
