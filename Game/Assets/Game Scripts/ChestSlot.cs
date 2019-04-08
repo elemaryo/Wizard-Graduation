@@ -7,9 +7,10 @@ public class ChestSlot : MonoBehaviour
 {
     public Image icon;
     private GameObject item;
-
+    private GameObject book;
     void Start()
     {
+        book = GameObject.FindGameObjectWithTag("Spellbook");
         item = null;
     }
 
@@ -35,6 +36,14 @@ public class ChestSlot : MonoBehaviour
 
     public void chooseItem()
     {
-        Debug.Log("Choosing Item");
+        for (int i = 0; i <= 6; i++)
+        {
+            if (book.GetComponent<SpellBook>().GetSpell(i) == null)
+            {
+                book.GetComponent<SpellBook>().AddSpell(i, item);
+                ClearSlot();
+                return;
+            }
+        }
     }
 }

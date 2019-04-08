@@ -8,20 +8,29 @@ public class Player : MonoBehaviour
     private bool attack;
 
     public GameObject projectile;
-
+    public SpellBook book;
     //[SerializeField]
-    public GameObject[] spellPrefab;
+    private GameObject[] spells;
 
     private Animator anim;
 
 
     void Start()
     {
+        spells = new GameObject[6];
+        for (int i = 0; i < spells.Length; i++)
+        {
+            spells[i] = book.GetComponent<SpellBook>().GetSpell(i);
+        }
         anim = GetComponent<Animator>();
     }
 
     void Update()
     {
+        for (int i = 0; i < spells.Length; i++)
+        {
+            spells[i] = book.GetComponent<SpellBook>().GetSpell(i);
+        }
         //Arrow Key Movement
         var objpos = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
         transform.position += objpos * speed * Time.deltaTime;
@@ -75,42 +84,42 @@ public class Player : MonoBehaviour
     {
         if (spellIndex == 0)
         {
-            Instantiate(spellPrefab[0], transform.position, Quaternion.identity);
+            Instantiate(spells[0], transform.position, Quaternion.identity);
             Instantiate(projectile, transform.position, Quaternion.identity);
             attack = true;
             DoAttack();
         }
         else if (spellIndex == 1)
         {
-            Instantiate(spellPrefab[1], transform.position, Quaternion.identity);
+            Instantiate(spells[1], transform.position, Quaternion.identity);
             Instantiate(projectile, transform.position, Quaternion.identity);
             attack = true;
             DoAttack();
         }
         else if (spellIndex == 2)
         {
-            Instantiate(spellPrefab[2], transform.position, Quaternion.identity);
+            Instantiate(spells[2], transform.position, Quaternion.identity);
             Instantiate(projectile, transform.position, Quaternion.identity);
             attack = true;
             DoAttack();
         }
         else if (spellIndex == 3)
         {
-            Instantiate(spellPrefab[3], transform.position, Quaternion.identity);
+            Instantiate(spells[3], transform.position, Quaternion.identity);
             Instantiate(projectile, transform.position, Quaternion.identity);
             attack = true;
             DoAttack();
         }
         else if (spellIndex == 4)
         {
-            Instantiate(spellPrefab[4], transform.position, Quaternion.identity);
+            Instantiate(spells[4], transform.position, Quaternion.identity);
             Instantiate(projectile, transform.position, Quaternion.identity);
             attack = true;
             DoAttack();
         }
         else if (spellIndex == 5)
         {
-            Instantiate(spellPrefab[5], transform.position, Quaternion.identity);
+            Instantiate(spells[5], transform.position, Quaternion.identity);
             Instantiate(projectile, transform.position, Quaternion.identity);
             attack = true;
             DoAttack();
@@ -121,42 +130,42 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            Instantiate(spellPrefab[0], transform.position, Quaternion.identity);
+            Instantiate(spells[0], transform.position, Quaternion.identity);
             attack = true;
             DoAttack();
         }
 
         if (Input.GetKeyDown(KeyCode.Mouse1))
         {
-            Instantiate(spellPrefab[1], transform.position, Quaternion.identity);
+            Instantiate(spells[1], transform.position, Quaternion.identity);
             attack = true;
             DoAttack();
         }
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(spellPrefab[2], transform.position, Quaternion.identity);
+            Instantiate(spells[2], transform.position, Quaternion.identity);
             attack = true;
             DoAttack();
         }
 
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            Instantiate(spellPrefab[3], transform.position, Quaternion.identity);
+            Instantiate(spells[3], transform.position, Quaternion.identity);
             attack = true;
             DoAttack();
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            Instantiate(spellPrefab[4], transform.position, Quaternion.identity);
+            Instantiate(spells[4], transform.position, Quaternion.identity);
             attack = true;
             DoAttack();
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            Instantiate(spellPrefab[5], transform.position, Quaternion.identity);
+            Instantiate(spells[5], transform.position, Quaternion.identity);
             attack = true;
             DoAttack();
         }
