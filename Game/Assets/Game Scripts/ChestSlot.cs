@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class ChestSlot : MonoBehaviour
 {
@@ -36,6 +37,7 @@ public class ChestSlot : MonoBehaviour
 
     public void chooseItem()
     {
+        int rand = Random.Range (0, 5);
         for (int i = 0; i < 6; i++)
         {
             if (book.GetComponent<SpellBook>().GetSpell(i) == null)
@@ -45,5 +47,8 @@ public class ChestSlot : MonoBehaviour
                 return;
             }
         }
+        GameObject temp = book.GetComponent<SpellBook>().GetSpell(rand);
+        book.GetComponent<SpellBook>().AddSpell(rand, item);
+        AddItem(temp);
     }
 }

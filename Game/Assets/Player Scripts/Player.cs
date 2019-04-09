@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    float speed = 3.0f;
+    public float speed;
     private bool attack;
 
     public GameObject projectile;
@@ -176,5 +176,10 @@ public class Player : MonoBehaviour
             DoIdle();
         }
 
+    }
+
+    public void IncreaseSpeed(int s)
+    {
+        speed+=s;
     }
 }
