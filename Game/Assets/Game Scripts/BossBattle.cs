@@ -32,8 +32,7 @@ public class BossBattle : MonoBehaviour
             Destroy(book);
             Destroy(wizard);
             Destroy(health);
-            Destroy(score);
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(10);
         }
     }
 }

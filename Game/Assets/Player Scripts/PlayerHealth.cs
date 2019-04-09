@@ -53,7 +53,7 @@ public class PlayerHealth : MonoBehaviour
     {
         //restart game?
         //Add death cutscene here
-        SceneManager.LoadScene("Home");
+        SceneManager.LoadScene(9);
         Destroy(gameObject);
         Destroy(health);
         Destroy(score);

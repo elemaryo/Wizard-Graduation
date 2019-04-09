@@ -128,7 +128,7 @@ public class Player : MonoBehaviour
 
     private void CastSpell()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.F))
         {
             Instantiate(spells[0], transform.position, Quaternion.identity);
             attack = true;

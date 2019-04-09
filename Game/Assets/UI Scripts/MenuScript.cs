@@ -12,4 +12,8 @@ public class MenuScript : MonoBehaviour
     public void Exit(){
         Application.Quit();
     }
+
+    public void DisplayHighScore(){
+        Debug.Log("High Score: " + PlayerPrefs.GetInt("HighScore"));
+    }
 }
