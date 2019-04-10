@@ -38,20 +38,18 @@ public class Player : MonoBehaviour
         //Face Hat towards Mouse (pointy side away from mouse)
         Vector3 mousePosition = Input.mousePosition;
         mousePosition.z = 0;
-
-        //Mouse follow
-        FaceMouse();
-
-        //Cast spells method
-        CastSpell();
-
-        Vector3 objectPos = Camera.main.WorldToScreenPoint(transform.position);
+         Vector3 objectPos = Camera.main.WorldToScreenPoint(transform.position);
         mousePosition.x = mousePosition.x - objectPos.x;
         mousePosition.y = mousePosition.y - objectPos.y;
 
         float angle = Mathf.Atan2(mousePosition.y, mousePosition.x) * Mathf.Rad2Deg;
         angle -= 90; //correction for angle, sprite was sideways
         transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
+        //Mouse follow
+        //FaceMouse();
+
+        //Cast spells method
+        CastSpell();
 
     }
 
