@@ -8,6 +8,14 @@ public class PauseMenu : MonoBehaviour
     public static bool isPaused = false;
     public GameObject pauseMenuUI;
     public GameObject player;
+    private GameObject health;
+    private GameObject score;
+
+    void Start()
+    {
+        score = GameObject.FindGameObjectWithTag("Score");
+        health = GameObject.FindGameObjectWithTag("Healthslider");
+    }
     // Update is called once per frame
     void Update()
     {
@@ -42,6 +50,8 @@ public class PauseMenu : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player");
         Destroy(player);
+        Destroy(score);
+        Destroy(health);
         SceneManager.LoadScene(0);
     }
 }
